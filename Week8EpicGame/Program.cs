@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
-string heroFile = @"/Users/kasparkutt/projects/heroes.txt";
-string villainFile = @"/Users/kasparkutt/projects/villains.txt";
+string heroFile = @"/Users/projects/heroes.txt";
+string villainFile = @"/Users/projects/villains.txt";
 
 
 string[] heroes = File.ReadAllLines(heroFile);
